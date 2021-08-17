@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color:lightblue;}
+            input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <form>
+      
+       <!--Heading of form-->
+       <div class="reg">
+       <center><h2><u>REGISTRATION FORM</u></h2></div></center>
+
+      
+
+       <!--first name-->
+       <div class="name">
+       <label for="fname">FIRST NAME:</label><br>
+       <input type="text" id="fname" name="fname" value="" required><br><br>
+
+       <!--last name-->
+       <label for="lname">LAST NAME:</label><br>
+       <input type="text" id="lname" name="lname" value="" required></div><br><br>
+      
+        <!--gender of user-->
+       <div class="category">
+       <label for="gen">GENDER:</label><br>
+       <input type="radio" id="male" name="gen" value="MALE">
+       <label for="male">MALE</label>
+       <input type="radio" id="female" name="gen" value="FEMALE">
+       <label for="female">FEMALE</label>
+       <input type="radio" id="others" name="gen" value="OTHERS">
+       <label for="others">OTHERS</label></div><br><br>
+
+      <h4> <label for="start">date of birth:</label></h4><input type="date" id="start" name="date of birth"
+              value="1996-07-22"
+              min="1996-01-01" max="1996-12-31">
+       
+       <!--email of the user-->
+       <div class="info">
+       <label for="email id">EMAIL ID:</label><br>
+       <input type="email" id="email id" name="email id" required><br><br>
+
+       <!--phone no of the user-->
+       <label for="mobile number">MOBILE NUMBER:</label><br>
+       <input type="number" id="phno" name="mobile number" min="10" max="" required></div><br><br>
+       <!--sumbit the form-->
+       <input type="submit" value="submit">
+       </div>
+
+   </form>    
+   </body>
+</html>
